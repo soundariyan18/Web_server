@@ -29,7 +29,7 @@ Serving the HTML pages.
 Testing the webserver
 
 # PROGRAM:
-... python
+```python
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 content = """
@@ -57,7 +57,7 @@ class Hellohandler(BaseHTTPRequestHandler):
 server_address = ('',80)
 httpd = HTTPServer(server_address, Hellohandler)
 httpd.serve_forever()
-...
+```
 
 # OUTPUT:
 ![name](webserver.png)
