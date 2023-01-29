@@ -60,7 +60,7 @@ httpd.serve_forever()
 ```
 
 # OUTPUT:
-![name](webserver.png)
+![model](webserver.png)
 
 # RESULT:
 
